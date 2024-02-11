@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="empl4sem2CRUD" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eml1Sem1SpringCore" target="17" />
+      <module name="examole1sem3" target="17" />
+      <module name="Example1Seminar4" target="17" />
+      <module name="example2sem1" target="17" />
+      <module name="example2sem3" target="17" />
+      <module name="Example2Seminar4" target="17" />
+      <module name="example3sem3hometask" target="17" />
+      <module name="Example3Sem4" target="17" />
+      <module name="Exml2Sem2SpringCore" target="17" />
+      <module name="Exml3Sem2SpringCore" target="17" />
+      <module name="myapp" target="1.7" />
+      <module name="task_3" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Example1Seminar4" options="-parameters" />
+      <module name="Example2Seminar4" options="-parameters" />
+      <module name="Example3Sem4" options="-parameters" />
+      <module name="empl4sem2CRUD" options="-parameters" />
+      <module name="examole1sem3" options="-parameters" />
+      <module name="example2sem3" options="-parameters" />
+      <module name="example3sem3hometask" options="-parameters" />
+      <module name="task_3" options="-parameters" />
+    </option>
+  </component>
+</project>
